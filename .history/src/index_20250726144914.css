@@ -1,0 +1,45 @@
+.poet-card {
+  background-color: #fff9f0;
+  border: 1px solid #d4c0aa;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s ease;
+}
+
+.poet-card:hover {
+  transform: translateY(-3px);
+}
+
+.poet-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.poem-title {
+  font-size: 1.5rem;
+  color: #5a321a;
+  margin: 0;
+}
+
+.poem-category {
+  font-size: 0.9rem;
+  color: #9a7a4f;
+  background: #fcefdc;
+  padding: 0.2rem 0.6rem;
+  border-radius: 8px;
+}
+
+.poem-preview {
+  font-style: italic;
+  margin: 1rem 0;
+  color: #444;
+}
+
+.poet-card-footer {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: right;
+}
