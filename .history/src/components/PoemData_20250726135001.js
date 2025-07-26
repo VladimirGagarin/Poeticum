@@ -1,0 +1,27 @@
+export function LovePoem() {
+  const poem = {
+    id: "love-01", // unique ID (for routing or lookup)
+    title: "When Ember Touched Silk",
+    category: "Roamntic",
+    author: "Kevo Poetica", // or leave empty for anonymous
+    language: "English", // or "Greek", "French", etc.
+    tags: ["intimacy", "gentle", "longing"], // optional
+    text :  [
+      { verse:["You arrived like hush in a thunderstorm,",
+      "Smoothing the skies that wrinkled my soul.",
+      "Each breath you gave wore the scent of silence,",
+            "And I loved you in the spaces between fire and fold."
+        ],
+          meaning:""
+        },
+        {
+            verse: [],
+            meaning: ""
+        }
+        
+    ]
+   
+  };
+
+  return poem;
+}

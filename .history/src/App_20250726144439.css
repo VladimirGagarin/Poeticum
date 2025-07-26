@@ -1,0 +1,48 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.app-container {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  padding: 2rem;
+  background: #f5f0e6;
+  min-height: 100vh;
+  width: ;
+}
+
+.app-header {
+  margin-bottom: 2rem;
+}
+
+.logo {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  border: 2px solid #ccc;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #6b3e26;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #444;
+  font-style: italic;
+}
+
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
